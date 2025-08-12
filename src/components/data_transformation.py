@@ -118,7 +118,7 @@ class DataTransformation:
             # I did the preprocessing step
 
             # Mine but slighty corrected
-            input_feature_train_arr = preprocess_obj.fit_tranform(input_feature_train_df)
+            input_feature_train_arr = preprocess_obj.fit_transform(input_feature_train_df)
 
             input_feature_test_arr = preprocess_obj.transform(input_feature_test_df)
 

@@ -17,7 +17,7 @@ class ModelTrainer:
     def initiate_model_training(self, train_arr, test_arr):
         try:
             logging.info('Splitting Dependent and Independent variables from train and test data')
-            X_train, X_test, y_train, y_test = train_arr.iloc[:, :-1], test_arr.iloc[:, :-1], train_arr[:, -1], test_arr[:, -1]
+            X_train, X_test, y_train, y_test = train_arr[:, :-1], test_arr[:, :-1], train_arr[:, -1], test_arr[:, -1]
 
             # Sunny Code
             # I was not able to come up with this implementation code
@@ -32,7 +32,7 @@ class ModelTrainer:
 
             best_model_score = max(sorted(model_report.values()))
 
-            best_model_name = list(model_report.keys())[list(model_report.values()).items(best_model_score)]
+            best_model_name = list(model_report.keys())[list(model_report.values()).index(best_model_score)]
 
             best_model = models[best_model_name]
 

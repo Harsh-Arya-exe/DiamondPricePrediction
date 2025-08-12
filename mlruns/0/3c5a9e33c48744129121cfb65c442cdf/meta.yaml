@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/DiamondPricePrediction/mlruns/0/3c5a9e33c48744129121cfb65c442cdf/artifacts
+end_time: 1754934923825
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3c5a9e33c48744129121cfb65c442cdf
+run_name: luxuriant-stork-592
+run_uuid: 3c5a9e33c48744129121cfb65c442cdf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754934923804
+status: 3
+tags: []
+user_id: harsh

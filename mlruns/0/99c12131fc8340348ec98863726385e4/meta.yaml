@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/DiamondPricePrediction/mlruns/0/99c12131fc8340348ec98863726385e4/artifacts
+end_time: 1754934802525
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 99c12131fc8340348ec98863726385e4
+run_name: languid-auk-60
+run_uuid: 99c12131fc8340348ec98863726385e4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754934802503
+status: 3
+tags: []
+user_id: harsh
